@@ -1,14 +1,21 @@
 /* Definindo o fundo preto */
 body {
-    background-color: #000; /* Código hexadecimal para a cor preta */
-    color: #fff; /* Definindo a cor do texto como branca para melhor contraste */
-    margin: 20px auto; /* Margens superior e inferior de 30px e centralização horizontal */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Tornar o corpo da página do tamanho da tela */
-  }
+  margin: 0;
+  overflow: hidden;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+}
+ 
 /* Estilos para os botões */
 body {
     font-family: Arial, sans-serif; /* Definindo uma fonte para os botões */
@@ -28,8 +35,8 @@ body {
     width: 700px; /* Largura dos botões */
     height: 90px; /* Altura dos botões */
     margin-bottom: 3px; /* Aumentando o espaçamento entre os botões para 3px */
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #534c4c;
+    color: #faf8f8;
     border: none;
     border-radius: 40px; /* Aumentando a curvatura das bordas */
     cursor: pointer;
@@ -41,5 +48,5 @@ body {
   }
   
   button:hover {
-    background-color: #f80101;
+    background-color: #f88d01;
   }
