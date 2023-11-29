@@ -1,0 +1,45 @@
+/* Definindo o fundo preto */
+body {
+    background-color: #000; /* Código hexadecimal para a cor preta */
+    color: #fff; /* Definindo a cor do texto como branca para melhor contraste */
+    margin: 20px auto; /* Margens superior e inferior de 30px e centralização horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Tornar o corpo da página do tamanho da tela */
+  }
+/* Estilos para os botões */
+body {
+    font-family: Arial, sans-serif; /* Definindo uma fonte para os botões */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupar toda a altura da viewport */
+  }
+  
+  button {
+    width: 700px; /* Largura dos botões */
+    height: 90px; /* Altura dos botões */
+    margin-bottom: 3px; /* Aumentando o espaçamento entre os botões para 3px */
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 40px; /* Aumentando a curvatura das bordas */
+    cursor: pointer;
+    font-size: 23px; /* Aumentando o tamanho do texto para 23px */
+  }
+  
+  button:first-child {
+    margin-top: 30px; /* Adicionando um espaçamento superior para o primeiro botão */
+  }
+  
+  button:hover {
+    background-color: #f80101;
+  }
